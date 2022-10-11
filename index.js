@@ -1,7 +1,7 @@
 const _moduleName = 'main.js'
 const _insertCode = 'console.log(import.meta.url)\n'
 
-module.exports = function() {
+export default function() {
 	return {
 		name: 'vitePluginInsert',
 		apply: 'serve',

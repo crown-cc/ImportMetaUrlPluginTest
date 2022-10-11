@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "module": "index.js",
   "scripts": {
     "dev2": "npm -C playground/vite2 run dev",
     "dev3": "npm -C playground/vite3 run dev",
