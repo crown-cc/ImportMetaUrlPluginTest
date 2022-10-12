@@ -3,7 +3,7 @@ const _insertCode = 'console.log(import.meta.url)\n'
 
 export default function() {
 	return {
-		name: 'vitePluginInsert',
+		name: 'vite-plugin-inspect',
 		apply: 'serve',
 		transform(code, id) {
 			if(!id.includes(_moduleName)) return code
